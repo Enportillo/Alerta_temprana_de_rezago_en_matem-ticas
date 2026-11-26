@@ -1,0 +1,157 @@
+# =============================================================================
+# SAT-Mat: Sistema de Alerta Temprana de Rezago - Configuración Git
+# =============================================================================
+
+# DATOS
+# =============================================================================
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.pickle
+
+# OUTPUTS Y RESULTADOS
+# =============================================================================
+outputs/
+figs/
+results/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.svg
+
+# PYTHON - Entorno Virtual
+# =============================================================================
+venv/
+env/
+ENV/
+.venv
+.env
+.env.local
+.env.*.local
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PYTHON - Cache y Compilación
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# JUPYTER NOTEBOOK
+# =============================================================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+.jupyter/
+.ipython/
+
+# IDE - VS Code
+# =============================================================================
+.vscode/
+*.code-workspace
+.history/
+
+# IDE - PyCharm
+# =============================================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+
+# IDE - Otros
+# =============================================================================
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# TESTING Y COBERTURA
+# =============================================================================
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+htmlcov/
+
+# HERRAMIENTAS
+# =============================================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+*.bak
+*.tmp
+*.swp
+*~
+
+# GOOGLE COLAB (archivos generados)
+# =============================================================================
+sample_data/
+*.csv.gz
+
+# OS ESPECÍFICO
+# =============================================================================
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# LOGS
+# =============================================================================
+*.log
+logs/
+
+# MODELOS ENTRENADOS
+# =============================================================================
+models/
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+checkpoints/
+
+# =============================================================================
+# FIN DE CONFIGURACIÓN
+# =============================================================================

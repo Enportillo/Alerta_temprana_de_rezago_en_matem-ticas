@@ -1,0 +1,8 @@
+pandas>=2.2
+numpy
+scipy
+scikit-learn>=1.5
+xgboost>=2.0
+shap>=0.45
+matplotlib
+joblib
